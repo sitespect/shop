@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Room_LivingRoom_Text">Living Room</string>
+    <color name="Room_LivingRoom_Color">#141D54</color>
+    
+    <string name="Room_Kitchen_Text">Kitchen</string>
+    <color name="Room_Kitchen_Color">#8E8D90</color>
+
+    <string name="Room_Office_Text">Office</string>
+    <color name="Room_Office_Color">#BE2514</color>
+
+    <string name="Room_DiningRoom_Text">Dining Room</string>
+    <color name="Room_DiningRoom_Color">#3F6D8B</color>
+
+    <string name="Room_Bedroom_Text">Bedroom</string>
+    <color name="Room_Bedroom_Color">#5F774E</color>
+
+    <string name="Room_Bathroom_Text">Bathroom</string>
+    <color name="Room_Bathroom_Color">#4FA6C2</color>
+
+    <string name="Room_Outdoor_Text">Outdoor</string>
+    <color name="Room_Outdoor_Color">#328329</color>
+
+    <string name="Room_Lighting_Text">Lighting</string>
+    <color name="Room_Lighting_Color">#F7910A</color>
+</resources>

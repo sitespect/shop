@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/Room_Outdoor_Color"
+        android:fitsSystemWindows="true"
+        style="@style/AppTheme.Toolbar"/>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/activity_details_coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_productdetail_patioset_normal"/>
+
+                <!-- Header Information -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/Margin_Single"
+                    android:paddingRight="@dimen/Margin_Single"
+                    android:paddingTop="@dimen/Margin_SingleHalf"
+                    android:paddingBottom="@dimen/Margin_SingleHalf"
+                    android:contentDescription="@string/details_imageDescription">
+
+                    <TextView
+                        android:id="@+id/activity_details_featuredItemTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        style="@style/Typeface.Medium.TitleVeryHuge"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/activity_details_discountPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:paddingLeft="@dimen/Margin_Quarter"
+                            android:paddingRight="@dimen/Margin_Quarter"
+                            android:textSize="@dimen/Text_Gigantic"
+                            style="@style/Typeface.Normal.SkyBlueDark"/>
+
+                        <TextView
+                            android:id="@+id/activity_details_retailPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/Margin_Half"
+                            android:layout_marginStart="@dimen/Margin_Half"
+                            android:layout_gravity="bottom"
+                            android:textSize="@dimen/Text_Small"
+                            android:text="@string/details_itemRetailPrice"
+                            style="@style/Typeface.Normal.Light"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:textSize="@dimen/Text_Small"
+                        android:text="@string/details_inStock"
+                        android:textAllCaps="true"
+                        style="@style/Typeface.Normal.Dark"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/Margin_Quarter"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icn_productdetail_stars_active"
+                            android:contentDescription="@string/details_ratingDescription"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/Margin_Half"
+                            android:layout_marginStart="@dimen/Margin_Half"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="@dimen/Text_Small"
+                            android:text="@string/details_numberOfReviews"
+                            style="@style/Typeface.Normal.Light"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View style="@style/Divider_Horizontal"/>
+
+                <!-- Description -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/Margin_Single"
+                    android:paddingRight="@dimen/Margin_Single"
+                    android:paddingTop="@dimen/Margin_SingleHalf"
+                    android:paddingBottom="@dimen/Margin_SingleHalf">
+
+                    <TextView
+                        android:id="@+id/product_desc_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:text="@string/details_description"
+                        style="@style/Typeface.Medium.Header"/>
+
+                    <TextView
+                        android:id="@+id/product_desc_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin_Single"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:text="@string/details_featuredItemDescription"
+                        style="@style/Typeface.Normal.Dark.Body"/>
+
+                </LinearLayout>
+
+                <View style="@style/Divider_Horizontal"/>
+
+                <!-- Reviews -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/Margin_Single"
+                    android:layout_marginRight="@dimen/Margin_Single"
+                    android:layout_marginTop="@dimen/Margin_SingleHalf">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/details_reviews"
+                            style="@style/Typeface.Medium.Header"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/Margin_Half"
+                            android:layout_marginLeft="@dimen/Margin_Half"
+                            android:textSize="@dimen/Text_Small"
+                            android:text="@string/details_numberOfReviews"
+                            style="@style/Typeface.Normal.Light"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin_Single"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/details_reviewShort"
+                            style="@style/Typeface.Medium.TitleVeryLarge"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/icn_productdetail_stars_active"
+                            android:contentDescription="@string/details_ratingDescription"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/details_reviewPerson"
+                            android:textSize="@dimen/Text_Small"
+                            style="@style/Typeface.Normal.Light"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/details_reviewDate"
+                            android:textSize="@dimen/Text_Small"
+                            style="@style/Typeface.Normal.Light"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:layout_marginTop="@dimen/Margin_Half"
+                        android:text="@string/details_reviewDetail"
+                        style="@style/Typeface.Normal.Dark.Body"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin_SingleHalf"
+                    android:layout_marginBottom="@dimen/Margin_SingleHalf"
+                    android:layout_marginLeft="@dimen/Margin_Single"
+                    android:layout_marginRight="@dimen/Margin_Single"
+                    android:paddingLeft="@dimen/Margin_Quarter"
+                    android:paddingRight="@dimen/Margin_Quarter"
+                    android:text="@string/details_viewMore"
+                    style="@style/TextButtonBlue"/>
+
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_details_addToCartFab"
+            style="@style/AddToCartFab"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

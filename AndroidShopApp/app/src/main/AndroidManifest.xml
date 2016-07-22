@@ -1,0 +1,38 @@
+<manifest package="com.sitespect.sitespectdemo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".DemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".browse.BrowseActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sitespect.sdk.SiteSpectActivity"
+            android:theme="@style/SiteSpectTheme"/>
+        <!-- SSL Pinning defaults to true because you connect to Production by default -->
+        <meta-data
+            android:name="SiteSpect_SSL_Pinning"
+            android:value="false"/>
+        <activity android:name=".details.ProductDetailsActivity"
+                  android:theme="@style/SnackbarTheme"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".cart.ShoppingCartActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".checkout.CheckoutActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name="com.sitespect.sitespectdemo.checkout.ConfirmDialogActivity"
+                  android:theme="@style/Theme.AppCompat.Light.Dialog"/>
+    </application>
+
+</manifest>

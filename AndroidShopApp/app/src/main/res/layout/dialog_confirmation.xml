@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_checkout_confirmation_illustration"
+        android:contentDescription="@string/confirmation_imageDescription"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/Margin_SingleHalf"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmation_title"
+            android:textSize="@dimen/Text_Huge"
+            android:textColor="@color/black_A87"
+            style="@style/Typeface.Medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmation_number"
+            android:textSize="@dimen/Text_Large"
+            style="@style/Typeface.Normal.Light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/Margin_Single"
+            android:text="@string/confirmation_bodyText"
+            android:textSize="@dimen/Text_Large"
+            android:lineSpacingMultiplier="1.2"
+            style="@style/Typeface.Normal.Medium"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/Margin_Single"
+            android:gravity="end">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirmation_trackButton"
+                style="@style/textButton_regular"
+                android:background="@drawable/select_background"
+                />
+
+            <Button
+                android:id="@+id/dialog_confirmation_doneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/Margin_SingleHalf"
+                android:text="@string/confirmation_doneButton"
+                android:textColor="@color/skyBlue_dark"
+                style="@style/textButton_regular"
+                android:background="@drawable/select_background"
+                tools:ignore="RtlHardcoded"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

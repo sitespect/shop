@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColor">@color/black_A87</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+    </style>
+
+
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:elevation">@dimen/Elevation_AppBar</item>
+    </style>
+
+    <style name="AppTheme.BottomBar">
+        <item name="android:elevation">@dimen/BottomNavigationBar_Elevation</item>
+    </style>
+</resources>

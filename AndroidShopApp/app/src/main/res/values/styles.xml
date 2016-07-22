@@ -1,0 +1,57 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/black_A87</item>
+    </style>
+
+    <style name="AppTheme.Toolbar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="Divider_Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/Divider_Stroke</item>
+        <item name="android:background">@color/black_A12</item>
+    </style>
+
+    <style name="AddToCartFab" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:layout_margin">@dimen/Margin_Single</item>
+        <item name="android:src">@drawable/icn_add_shopping_cart_white</item>
+        <item name="backgroundTint">@color/skyBlue_dark</item>
+    </style>
+
+    <style name="SpinnerItemTextView" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black_A87</item>
+        <item name="android:textSize">@dimen/Text_Large</item>
+    </style>
+
+    <style name="SpinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/Margin_Single</item>
+        <item name="android:paddingRight">@dimen/Margin_Single</item>
+        <item name="android:paddingTop">@dimen/Margin_Half</item>
+        <item name="android:paddingBottom">@dimen/Margin_Half</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/black_A87</item>
+        <item name="android:textSize">@dimen/Text_Large</item>
+    </style>
+
+    <style name="SnackbarTheme" parent="AppTheme">
+        <item name="colorAccent">@color/skyBlue_dark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/Text_Large</item>
+    </style>
+</resources>

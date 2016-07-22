@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_c42a76b41bd4f4a279abc18c9e2f07095d26a45c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_4a6b758931eb3d2f2e61bd9bf0b8ae09c56ee40f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/sitespect-sdk-editor-demo/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8afe375e026dd65c99ffeff71a24957974839819">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-sitespect-sdk-editor-demo_7d08beefde7c08385682541d4708613ec35ce675/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_0a506f321645b5120352180a55c34750ba296836/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.1/e2a00ad1d7e540ec395e9296a34da484c8888d4d/jackson-core-2.5.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e2a00ad1d7e540ec395e9296a34da484c8888d4d">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.5.1_a780805c287a4095ac245140316930b8ee68aeb1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="025c6c3b6c98c2010760789d929164b9dc531960">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0e703fa307db87acff14884c9e6a47aab3d07076/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.raizlabs.android/DBFlow-Core/2.2.1/e07bfc8e2041edf27469bd94e08bc19f52f4dee7/DBFlow-Core-2.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e07bfc8e2041edf27469bd94e08bc19f52f4dee7">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/DBFlow-Core-2.2.1_4ba2dbc4534c3390778476100bb96905cc2fa48c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.bluelinelabs/logansquare/1.3.4/44262279e900a296de2a3af5629bbdd6832d8a52/logansquare-1.3.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="44262279e900a296de2a3af5629bbdd6832d8a52">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/logansquare-1.3.4_9ac98d27d008c828ae1e3a8f44108f609f5787d5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.infstory/retrofit/2.0.5/a7a31933ec375c0893b84f0cb67cdbd00ddf3608/retrofit-2.0.5.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a7a31933ec375c0893b84f0cb67cdbd00ddf3608">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.5_539676e956957835d7c2d9f40aa63a01aff77996/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.rengwuxian.materialedittext/library/2.1.4/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.rengwuxian.materialedittext-library-2.1.4_68349c2e66dc8c4968813ba2777da2be43afd17e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.9/95af696584f71a2a2c20736f4a97eeadb5700773/rxjava-1.0.9.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="95af696584f71a2a2c20736f4a97eeadb5700773">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.0.9_e141c327e67ad837118c20640b0f477a4abe408e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_362115f6096096aa6e9c8e129c90172acc696d40/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_4433d2a0430e2ced964907ac2268f4b2dd3aa1a0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_5904531d6c04627b0b270033becb2aa7aba7f33d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="21e195acfd83ca3979f1c986152f86b075696f7f">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_abbbd6a697181ea9f3dc1f7476153a909fb0d30a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_898394422de92c1f74d26c3ebd0cd9c4c8bc3ec3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.infstory/converter-logansquare-retrofit/1.0.0/901135385aac9d73c7224bfc298db92bc707295d/converter-logansquare-retrofit-1.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="901135385aac9d73c7224bfc298db92bc707295d">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-logansquare-retrofit-1.0.0_f8df90843fa5d7bcf5cd352d45ecd02b8cbf97a1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_98e817d1950fa0e7d51fc84e9822fed2356204ab/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_f26d96e9a1d3c836310cb7875b2ae97db66e371e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_c28e98b5c6b79e62fb30a2fa1b2956e56a86c557/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_b801b73513a7f7f72c0d6715d58f08f0338c0a45/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.raizlabs.android/DBFlow/2.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="53dc9d74b0ac22d201549cd806780597d9679e9a">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.raizlabs.android-DBFlow-2.2.1_6a9db74c33ecea81727246a4743c0ef2bc2020df/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_be9cf07714776e02147e914afe138b631520d48c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.4.0_ab27752e9e20608f28532a89a874f085a20e5320/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.4.0_da0367f12d953dec8e0f2e220ac6adef570983cc/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.oguzbabaoglu/butterfork-binder/1.0.0/ecb44f0e46244048113d6c8b6b8d7460b3fa66da/butterfork-binder-1.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ecb44f0e46244048113d6c8b6b8d7460b3fa66da">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterfork-binder-1.0.0_9e2bd171c9b0c890259c96354402e1f1008fca9a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/raphaelwu/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/raphaelwu/Developer/mobile_projects/android_package/SiteSpect-DemoApp-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-1.9.0_c9cb2f3935ea44669c00383e09d98652bfd8a7ed/classes.dex" />
+    </item>
+
+</items>

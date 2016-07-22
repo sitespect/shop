@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin Values -->
+    <dimen name="Margin_Tiny">2dp</dimen>
+    <dimen name="Margin_Quarter">4dp</dimen>
+    <dimen name="Margin_Half">8dp</dimen>
+    <dimen name="Margin_Single">16dp</dimen>
+    <dimen name="Margin_SingleHalf">24dp</dimen>
+    <dimen name="Margin_Double">32dp</dimen>
+    <dimen name="Margin_Quadruple">64dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="Text_Small">12sp</dimen>
+    <dimen name="Text_Regular">14sp</dimen>
+    <dimen name="Text_Large">16sp</dimen>
+    <dimen name="Text_VeryLarge">18sp</dimen>
+    <dimen name="Text_Huge">20sp</dimen>
+    <dimen name="Text_VeryHuge">22sp</dimen>
+    <dimen name="Text_Gigantic">24sp</dimen>
+
+    <!-- Elevation Values -->
+    <dimen name="Elevation_AppBar">4dp</dimen>
+
+    <!-- Divider -->
+    <dimen name="Divider_Stroke">1dp</dimen>
+
+    <!-- Bottom Navigation Bar -->
+    <dimen name="BottomNavigationBar_Height">56dp</dimen>
+    <dimen name="BottomNavigationBar_Elevation">8dp</dimen>
+
+    <!-- Cart List Item Dimensions -->
+    <dimen name="CartItem_Image">80dp</dimen>
+
+    <dimen name="checkout_subtotalCell">56dp</dimen>
+</resources>

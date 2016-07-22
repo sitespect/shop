@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:clipToPadding="false">
+
+    <View style="@style/Divider_Horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/view_bottom_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/BottomNavigationBar_Height"
+        android:paddingLeft="@dimen/Margin_Single"
+        android:paddingRight="@dimen/Margin_Single"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/Text_Large"
+        android:background="@color/grey_bottomNavigationBar"
+        style="@style/AppTheme.BottomBar">
+
+        <TextView
+            android:id="@+id/view_bottom_bar_totalPriceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Typeface.Normal.Light"/>
+
+        <TextView
+            android:id="@+id/view_bottom_bar_totalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Margin_Half"
+            android:layout_marginStart="@dimen/Margin_Half"
+            style="@style/Typeface.Medium.Dark"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextButtonBlue"
+                android:id="@+id/view_bottom_bar_actionButton"/>
+            <!--<TextView-->
+                <!--android:id="@+id/view_bottom_bar_actionButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--style="@style/TextButtonBlue"/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

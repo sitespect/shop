@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Shop</string>
+
+    <!-- Formatting -->
+    <string name="itemPriceDisplayText">$%1$.2f</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu Items -->
+    <string name="menu_shopping_cart">Shopping Cart</string>
+    <string name="menu_search">Search</string>
+
+    <!-- Demo Items -->
+    <string name="shoppingCartItem_dexterPatioSetName">Dexter Patio Set</string>
+    <string name="shoppingCartItem_dexterPatioSetPrice">799.99</string>
+
+    <string name="shoppingCartItem_pillowName">Sunset Pillow Set</string>
+    <string name="shoppingCartItem_pillowPrice">59.99</string>
+
+    <string name="shoppingCartItem_candleName">Bug Repellant Candles</string>
+    <string name="shoppingCartItem_candlePrice">19.99</string>
+
+    <!-- Browse Screen -->
+    <string name="browse">Browse</string>
+    <string name="browse_viewDetails">View details</string>
+    <string name="browse_roomCollections">Room Collections</string>
+    <string name="browse_featuredItemDescription">
+        Lazy summer days are here. Our Dexter collection is perfect for the avid entertainer,
+        bringing function and comfort to our outdoor seating set.
+    </string>
+
+    <string name="browse_roomCollectionCellImageDescription">Cell image</string>
+    <string name="browse_featuredItemImageDescription">Featured item image</string>
+    <string name="browse_addToCartDescription">Add to cart</string>
+
+    <!-- Product Details Screen -->
+    <string name="details_inStock">In Stock</string>
+    <string name="details_itemRetailPrice">Originally $899.99</string>
+
+    <string name="details_description">Description</string>
+    <string name="details_featuredItemDescription">
+        Lazy summer days are here. Our Dexter collection is perfect for the avid entertainer,
+        bringing function and comfort to our outdoor seating set. Crafted from certified tropical
+        wood with a clean finish, it\'s neutral color is perfect for crafting your own outdoor style
+        for the season.
+    </string>
+
+    <string name="details_reviews">Reviews</string>
+    <string name="details_numberOfReviews">80 Reviews</string>
+    <string name="details_reviewShort">Amazing!</string>
+    <string name="details_reviewDetail">
+        This set is wonderful, simply wow! I\'ve had so much outdoor furniture in this lifetime
+        I should be ashamed, but each season my family and I use it and it breaks down. This time, however,
+        the Dexter set came to our rescue. It is solid, exceedingly comfortable, stays clean, and holds up
+        under our rambunctious crew.
+    </string>
+    <string name="details_reviewPerson">Bryan Waters</string>
+    <string name="details_reviewDate">01/22/2016</string>
+    <string name="details_viewMore">View More</string>
+
+    <string name="details_snackbarSuccessNotification">%1$s added to cart.</string>
+    <string name="details_snackbarViewCart">VIEW CART</string>
+    <string name="details_snackbarErrorNotification">Cart is full.</string>
+
+    <string name="details_imageDescription">Item detail image</string>
+    <string name="details_ratingDescription">Rating</string>
+
+    <!-- Shopping Cart Screen -->
+    <string name="shopping_cart_title">Shopping Cart</string>
+    <string name="shopping_cart_cartTotalLabel">Cart Total:</string>
+    <string name="shopping_cart_checkoutButton">Checkout</string>
+    <string name="shopping_cart_freeShipping">Free Shipping</string>
+    <string name="shopping_cart_quantity">Qty:</string>
+
+    <string name="shopping_cart_imageDescription">Shopping Cart Item Image</string>
+    <string name="shopping_cart_removeItemDescription">Remove Item</string>
+
+    <string-array name="shopping_cart_spinnerArray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <!-- Checkout Screen -->
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_orderTotalLabel">Order Total:</string>
+    <string name="checkout_purchaseButton">Purchase</string>
+    <string name="checkout_buyNowButton">Buy Now</string>
+    <string name="checkout_editButton">Edit</string>
+    <string name="checkout_addButton">Add</string>
+    <string name="checkout_subtotalLabel">Subtotal</string>
+    <string name="checkout_subtotalDescription">Subtotal icon</string>
+    <string name="checkout_salesTaxLabel">Sales Tax</string>
+    <string name="checkout_salesTaxDescription">Sales tax icon</string>
+    <string name="checkout_shippingFeeLabel">Shipping Fee</string>
+    <string name="checkout_shippingFeeDescription">Shipping fee icon</string>
+
+    <string name="checkout_paymentMethodLabel">Payment Method</string>
+    <string name="checkout_cardNumberLabel">Card Number</string>
+    <string name="checkout_cardHolderNameLabel">Cardholders Name</string>
+    <string name="checkout_expirationLabel">Exp.</string>
+    <string name="checkout_cardLogoDescription">Card logo</string>
+
+    <string name="checkout_cardNumber">0000 0000 0000 0000</string>
+    <string name="checkout_cardHolderName">John Doe</string>
+    <string name="checkout_expirationDate">01/18</string>
+
+    <string name="checkout_billingAddressLabel">Billing Address</string>
+    <string name="checkout_streetLabel">Street</string>
+    <string name="checkout_cityLabel">City</string>
+    <string name="checkout_stateLabel">State</string>
+    <string name="checkout_zipCodeLabel">Zip Code</string>
+    <string name="checkout_useShippingAddress">Use Shipping Address</string>
+
+    <string name="checkout_address">65 Upton Square Suite 182</string>
+    <string name="checkout_city">Boston</string>
+    <string name="checkout_state">MA</string>
+    <string name="checkout_zipCode">02109</string>
+
+    <!-- Confirmation -->
+    <string name="confirmation_imageDescription">Confirmation image</string>
+    <string name="confirmation_title">Order Confirmation</string>
+    <string name="confirmation_number">#00045602845933</string>
+    <string name="confirmation_bodyText">
+        Hurray! Your order is on it\'s way. You can track your package now
+        or check back via your email later. Enjoy!
+    </string>
+    <string name="confirmation_trackButton">Track</string>
+    <string name="confirmation_doneButton">Done</string>
+</resources>

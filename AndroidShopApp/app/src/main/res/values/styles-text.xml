@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Typeface" parent="android:TextAppearance"/>
+
+    <style name="Typeface.CreditCardNumber">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/Text_Huge</item>
+        <item name="android:textColor">@color/black_A87</item>
+    </style>
+
+    <!-- Normal Sans-Serif -->
+
+    <style name="Typeface.Normal">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Typeface.Normal.Dark">
+        <item name="android:textColor">@color/black_A87</item>
+    </style>
+
+    <style name="Typeface.Normal.Medium">
+        <item name="android:textColor">@color/black_A54</item>
+    </style>
+
+    <style name="Typeface.Normal.Light">
+        <item name="android:textColor">@color/black_A38</item>
+    </style>
+
+    <style name="Typeface.Normal.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Typeface.Normal.Green">
+        <item name="android:textColor">@color/green_500</item>
+    </style>
+
+    <style name="Typeface.Normal.SkyBlueDark">
+        <item name="android:textColor">@color/skyBlue_dark</item>
+    </style>
+
+    <style name="Typeface.Normal.SkyBlueDark.Header">
+        <item name="android:textSize">@dimen/Text_VeryLarge</item>
+    </style>
+
+    <style name="Typeface.Normal.TitleExtraLarge">
+        <item name="android:textColor">@color/black_A54</item>
+        <item name="android:textSize">@dimen/Text_Huge</item>
+    </style>
+
+    <style name="Typeface.Normal.TitleHuge">
+        <item name="android:textColor">@color/black_A54</item>
+        <item name="android:textSize">@dimen/Text_Gigantic</item>
+    </style>
+
+    <style name="Typeface.Normal.Dark.Body">
+        <item name="android:textSize">@dimen/Text_Large</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="Typeface.Normal.Dark.EditText">
+        <item name="android:textSize">@dimen/Text_Huge</item>
+    </style>
+
+    <!-- Bold Sans-Serif -->
+
+    <style name="Typeface.Bold">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Typeface.Bold.Light">
+        <item name="android:textColor">@color/black_A38</item>
+    </style>
+
+    <style name="Typeface.Bold.Light.Subheader">
+        <item name="android:textSize">@dimen/Text_Small</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Medium Sans-Serif -->
+
+    <style name="Typeface.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Typeface.Medium.Dark">
+        <item name="android:textColor">@color/black_A87</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Typeface.Medium.TitleVeryLarge">
+        <item name="android:textColor">@color/black_A87</item>
+        <item name="android:textSize">@dimen/Text_VeryLarge</item>
+    </style>
+
+    <style name="Typeface.Medium.TitleHuge">
+        <item name="android:textColor">@color/black_A87</item>
+        <item name="android:textSize">@dimen/Text_Huge</item>
+    </style>
+
+    <style name="Typeface.Medium.TitleVeryHuge">
+        <item name="android:textColor">@color/black_A87</item>
+        <item name="android:textSize">@dimen/Text_VeryHuge</item>
+    </style>
+
+    <style name="Typeface.Medium.TitleGigantic">
+        <item name="android:textColor">@color/black_A54</item>
+        <item name="android:textSize">@dimen/Text_Gigantic</item>
+    </style>
+
+    <style name="Typeface.Medium.Header">
+        <item name="android:textColor">@color/black_A38</item>
+        <item name="android:textSize">@dimen/Text_Large</item>
+    </style>
+
+    <style name="Typeface.Medium.ListItem">
+        <item name="android:textColor">@color/black_A87</item>
+        <item name="android:textSize">@dimen/Text_Large</item>
+    </style>
+
+    <!-- Button Text -->
+
+    <style name="textButton_regular" parent="@style/Typeface.Medium">
+        <item name="android:textColor">@color/black_A54</item>
+        <item name="android:textSize">@dimen/Text_Large</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextButtonBlue" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/Text_Large</item>
+        <item name="android:textColor">@color/blue_500</item>
+        <item name="android:background">@drawable/select_background</item>
+    </style>
+
+    <!-- Toolbar Text -->
+
+    <!--<style name="ExpandedTitleToolbarText" parent="@android:style/TextAppearance">-->
+        <!--<item name="android:fontFamily">sans-serif-medium</item>-->
+        <!--<item name="android:textColor">@color/Black_A54</item>-->
+        <!--<item name="android:textSize">@dimen/Text_ExtraLarge</item>-->
+    <!--</style>-->
+
+    <!--<style name="CollapsedTitleToolbarText" parent="@android:style/TextAppearance">-->
+        <!--<item name="android:fontFamily">sans-serif-medium</item>-->
+        <!--<item name="android:textColor">@color/White</item>-->
+        <!--<item name="android:textSize">@dimen/Text_ExtraLarge</item>-->
+    <!--</style>-->
+</resources>

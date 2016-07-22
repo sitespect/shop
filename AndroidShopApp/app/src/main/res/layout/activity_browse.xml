@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_browse_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_browseActionBar"
+            android:fitsSystemWindows="true"
+            style="@style/AppTheme.Toolbar"/>
+    
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:isScrollContainer="true">
+    
+                <ImageView
+                    android:id="@+id/activity_browse_featuredImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_browse_featured_normal"
+                    android:contentDescription="@string/browse_featuredItemImageDescription"/>
+
+                <!-- Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/Margin_SingleHalf"
+                    android:layout_marginLeft="@dimen/Margin_Single"
+                    android:layout_marginRight="@dimen/Margin_Single">
+    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:orientation="horizontal">
+    
+                        <TextView
+                            android:id="@+id/activity_browse_featuredTitle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            style="@style/Typeface.Normal.TitleHuge"/>
+    
+                        <TextView
+                            android:id="@+id/activity_browse_featuredPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/Text_Huge"
+                            style="@style/Typeface.Normal.Green"/>
+    
+                    </LinearLayout>
+    
+                    <TextView
+                        android:id="@+id/activity_browse_featureDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/Margin_Single"
+                        android:paddingLeft="@dimen/Margin_Quarter"
+                        android:paddingRight="@dimen/Margin_Quarter"
+                        android:text="@string/browse_featuredItemDescription"
+                        style="@style/Typeface.Normal.Dark.Body"/>
+    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_Single"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/activity_browse_featureDetailsButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/Margin_Quarter"
+                            android:text="@string/browse_viewDetails"
+                            style="@style/TextButtonBlue"/>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/activity_browse_addShoppingCart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/Margin_Quarter"
+                        android:src="@drawable/icn_add_shopping_cart_black"
+                        android:contentDescription="@string/browse_addToCartDescription"/>
+
+                </LinearLayout>
+    
+                <View style="@style/Divider_Horizontal"/>
+    
+                <!-- Room Collections Items -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin_Single"
+                    android:paddingLeft="@dimen/Margin_Quarter"
+                    android:paddingRight="@dimen/Margin_Quarter"
+                    android:text="@string/browse_roomCollections"
+                    style="@style/Typeface.Medium.Header"/>
+    
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="@dimen/Margin_Quarter"
+                        android:weightSum="2">
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/Margin_Tiny"
+                            android:layout_marginEnd="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_livingroom"
+                            app:cellText="@string/Room_LivingRoom_Text"
+                            app:cellColor="@color/Room_LivingRoom_Color"/>
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:id="@+id/activity_browse_kitchenCell"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="@dimen/Margin_Tiny"
+                            android:layout_marginStart="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_kitchen"
+                            app:cellText="@string/Room_Kitchen_Text"
+                            app:cellColor="@color/Room_Kitchen_Color"/>
+    
+                    </LinearLayout>
+    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="@dimen/Margin_Quarter"
+                        android:weightSum="2">
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/Margin_Tiny"
+                            android:layout_marginEnd="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_office"
+                            app:cellText="@string/Room_Office_Text"
+                            app:cellColor="@color/Room_Office_Color"/>
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="@dimen/Margin_Tiny"
+                            android:layout_marginStart="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_diningroom"
+                            app:cellText="@string/Room_DiningRoom_Text"
+                            app:cellColor="@color/Room_DiningRoom_Color"/>
+    
+                    </LinearLayout>
+    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="@dimen/Margin_Quarter"
+                        android:weightSum="2">
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/Margin_Tiny"
+                            android:layout_marginEnd="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_bedroom"
+                            app:cellText="@string/Room_Bedroom_Text"
+                            app:cellColor="@color/Room_Bedroom_Color"/>
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="@dimen/Margin_Tiny"
+                            android:layout_marginStart="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_bathroom"
+                            app:cellText="@string/Room_Bathroom_Text"
+                            app:cellColor="@color/Room_Bathroom_Color"/>
+    
+                    </LinearLayout>
+    
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/Margin_Tiny"
+                            android:layout_marginEnd="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_outdoor"
+                            app:cellText="@string/Room_Outdoor_Text"
+                            app:cellColor="@color/Room_Outdoor_Color"/>
+    
+                        <com.sitespect.sitespectdemo.widgets.RoomCollectionCellView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="@dimen/Margin_Tiny"
+                            android:layout_marginStart="@dimen/Margin_Tiny"
+                            app:cellDrawable="@drawable/img_browse_category_lighting"
+                            app:cellText="@string/Room_Lighting_Text"
+                            app:cellColor="@color/Room_Lighting_Color"/>
+    
+                    </LinearLayout>
+    
+                </LinearLayout>
+    
+            </LinearLayout>
+    
+        </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/activity_browse_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"/>
+
+</android.support.v4.widget.DrawerLayout>
