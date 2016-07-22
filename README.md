@@ -33,6 +33,5 @@ Mobile Live Variables allows managing specific variables inside SiteSpect that a
             viewHolder.kitchenCellView.setCellText(titleValue);
         }
 ```
-[See it Here](https://github.com/sitespect/piggybank/blob/master/PiggyBank/CreateAccountViewController.m#L64)
 
 Passing `{"kitchen_text":"Kitchen & Dining"}` within a SiteSpect campaign changes that text within the application for any user that is assigned to that campaign.
