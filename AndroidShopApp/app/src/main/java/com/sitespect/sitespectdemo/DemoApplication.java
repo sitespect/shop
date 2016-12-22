@@ -16,8 +16,8 @@ public class DemoApplication extends Application implements SiteSpectStateListen
     // Unique site identifier for Demo App Campaign
     public static final String SITESPECT_SITE_ID = "589";
 
-    // This needs to match "SDKIdentifier" label with the associated variation group.
-    private static final String VERSION_ID = "code_editing_change";
+    // This needs to match variation group ID 789
+    private static final String VERSION_ID = "789";
 
     private static DemoApplication singleton;
 
